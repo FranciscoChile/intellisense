@@ -1,4 +1,4 @@
-FROM java:8
+FROM adoptopenjdk/openjdk11:latest
 
 COPY target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
 
